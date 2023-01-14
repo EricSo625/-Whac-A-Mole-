@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mad.madaso39">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mourse_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/mourse_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SO39MADA">
+        <activity
+            android:name=".Game_Result"
+            android:exported="false" />
+        <activity
+            android:name=".Game_content"
+            android:exported="false" />
+        <activity
+            android:name=".game"
+            android:exported="false" />
+        <activity
+            android:name=".aboutTheApp"
+            android:exported="false" />
+        <activity
+            android:name=".aboutMe"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
